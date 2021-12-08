@@ -1,0 +1,54 @@
+{
+  "properties": [
+    {
+      "name": "app.doc.url",
+      "type": "java.lang.String",
+      "description": "Description for app.doc.url."
+    },
+    {
+      "name": "app.doc.title",
+      "type": "java.lang.String",
+      "description": "Description for app.doc.title."
+    },
+    {
+      "name": "app.doc.name",
+      "type": "java.lang.String",
+      "description": "Description for app.doc.name."
+    },
+    {
+      "name": "app.doc.description",
+      "type": "java.lang.String",
+      "description": "Description for app.doc.description."
+    },
+    {
+      "name": "app.doc.version",
+      "type": "java.lang.String",
+      "description": "Description for app.doc.version."
+    },
+    {
+      "name": "app.doc.license.name",
+      "type": "java.lang.String",
+      "description": "Description for app.doc.license.name."
+    },
+    {
+      "name": "app.doc.license.url",
+      "type": "java.lang.String",
+      "description": "Description for app.doc.license.url."
+    },
+    {
+      "name": "app.doc.contact.name",
+      "type": "java.lang.String",
+      "description": "Description for app.doc.contact.name."
+    },
+    {
+      "name": "app.doc.contact.email",
+      "type": "java.lang.String",
+      "description": "Description for app.doc.contact.email."
+    },
+    {
+      "name": "app.auth.token.expiration.days",
+      "type": "java.lang.String",
+      "description": "Description for app.auth.token.expiration.days."
+    }
+  ]
+}

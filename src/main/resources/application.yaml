@@ -1,0 +1,42 @@
+server:
+  port: ${PORT:8089}
+
+app:
+  auth:
+    token:
+      expiration:
+        days: '54'
+  doc:
+    url:
+    title: "Users manager"
+    name: "Users REST API"
+    description: "API for users management"
+    version: "v1.0.0"
+    license:
+      name:
+      url:
+    contact:
+      name: "wiser#1"
+      email: "wiserwarys@gmail.com"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+spring:
+  jackson:
+    default-property-inclusion: non_null
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+
+logging:
+  level:
+    org:
+      mongodb: WARN
+
+springdoc:
+  packages-to-scan: "com.warys.users"
+
